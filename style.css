@@ -227,6 +227,7 @@ button{
   display: flex;
   justify-content: center;
   margin-top: 8%;
+  margin-bottom: 3%;
 }
 
 #folha{
@@ -240,5 +241,17 @@ button{
   color: #05440F;
   font-size: 35px;
   text-transform: uppercase;
+}
+/*Fim do Título Principal*/
+
+/*Início dos Cards*/
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  margin: 1%;
 }
   

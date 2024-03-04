@@ -41,15 +41,13 @@
       }
       
       #folha{
-        margin-top: -1px;
-        margin-right: 5px;
         width: 1.5em;
         height: 1.5em;
       }
 }
 
 @media screen and (max-width: 568px){
-
+    
     #tituloPrincipal{
         margin-top: 20%;
     }
@@ -59,9 +57,36 @@
       }
       
       #folha{
-        margin-top: -1px;
-        margin-right: 5px;
         width: 1.7em;
         height: 1.7em;
+      }
+}
+
+@media screen and (max-width: 380px){
+
+    #tituloPrincipal{
+        margin-top: 30%;
+    }
+
+      #escritaPrincipal{
+        font-size: 1.5em;
+      }
+}
+
+/*Galaxy Fold*/
+@media screen and (max-width: 320px){
+
+    #tituloPrincipal{
+        margin-top: 30%;
+    }
+
+      #escritaPrincipal{
+        font-size: 1.2em;
+      }
+
+      #folha{
+        margin-top: -6px;
+        width: 1.5em;
+        height: 1.5em;
       }
 }
