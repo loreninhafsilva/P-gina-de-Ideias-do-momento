@@ -10,6 +10,7 @@
     ul{
         margin-left: -6%;
     }
+
 }
 
 @media screen and (max-width: 988px){
@@ -28,6 +29,34 @@
         width: 2em;
         height: 2em;
       }
+
+      .cards {
+        display: flex; /* Torna o container flexível */
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+         /* Distribui os itens uniformemente ao longo do contêiner, com espaço adicional entre eles */
+      }
+      
+      .card {
+        width: 14rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+        margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+      }
+
+      .card-body {
+        padding: 5px; /* Reduza o preenchimento interno do corpo do card */
+      }
+      
+      .card-img-top {
+        height: 100px; /* Reduza a altura da imagem */
+        object-fit: cover; /* Mantém a proporção e corta a imagem para preencher todo o espaço */
+      }
+      
+      .card-title {
+        font-size: 0.9rem; /* Reduza o tamanho do título do card */
+      }
+      
+      .card-text {
+        font-size: 0.8rem; /* Reduza o tamanho do texto do card */
+      }
 }
 
 @media screen and (max-width: 470px){
@@ -44,6 +73,16 @@
         width: 1.5em;
         height: 1.5em;
       }
+
+      .cards {
+        display: flex; /* Torna o container flexível */
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+      }
+      
+      .card {
+        width: calc(50% - 10px); /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+        margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+      }
 }
 
 @media screen and (max-width: 568px){
@@ -53,13 +92,40 @@
     }
 
       #escritaPrincipal{
-        font-size: 1.8em;
+        font-size: 1.6em;
       }
       
       #folha{
         width: 1.7em;
         height: 1.7em;
       }
+
+      .cards {
+        display: flex; /* Torna o container flexível */
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+      }
+      
+      .card {
+        width: 16rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+        margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+      }
+
+      .card-body {
+        padding: 5px; /* Reduza o preenchimento interno do corpo do card */
+      }
+      
+      .card-img-top {
+        height: 120px; /* Reduza a altura da imagem */
+        object-fit: cover; /* Mantém a proporção e corta a imagem para preencher todo o espaço */
+      }
+      
+      .card-title {
+        font-size: 1rem; /* Reduza o tamanho do título do card */
+      }
+      
+      .card-text {
+        font-size: 0.9rem; /* Reduza o tamanho do texto do card */
+      }     
 }
 
 @media screen and (max-width: 380px){
@@ -69,7 +135,34 @@
     }
 
       #escritaPrincipal{
-        font-size: 1.5em;
+        font-size: 1.3em;
+      }
+
+      .cards {
+        display: flex; /* Torna o container flexível */
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+      }
+      
+      .card {
+        width: 16rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+        margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+      }
+
+      .card-body {
+        padding: 6px; /* Reduza o preenchimento interno do corpo do card */
+      }
+      
+      .card-img-top {
+        height: 110px; /* Reduza a altura da imagem */
+        object-fit: cover; /* Mantém a proporção e corta a imagem para preencher todo o espaço */
+      }
+      
+      .card-title {
+        font-size: 1rem; /* Reduza o tamanho do título do card */
+      }
+      
+      .card-text {
+        font-size: 0.9rem; /* Reduza o tamanho do texto do card */
       }
 }
 
@@ -81,7 +174,7 @@
     }
 
       #escritaPrincipal{
-        font-size: 1.2em;
+        font-size: 1.1em;
       }
 
       #folha{
@@ -89,4 +182,32 @@
         width: 1.5em;
         height: 1.5em;
       }
+
+      .cards {
+        display: flex; /* Torna o container flexível */
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+      }
+      
+      .card {
+        width: 14rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+        margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+      }
+
+      .card-body {
+        padding: 5px; /* Reduza o preenchimento interno do corpo do card */
+      }
+      
+      .card-img-top {
+        height: 100px; /* Reduza a altura da imagem */
+        object-fit: cover; /* Mantém a proporção e corta a imagem para preencher todo o espaço */
+      }
+      
+      .card-title {
+        font-size: 0.9rem; /* Reduza o tamanho do título do card */
+      }
+      
+      .card-text {
+        font-size: 0.8rem; /* Reduza o tamanho do texto do card */
+      }
+
 }

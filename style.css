@@ -254,4 +254,94 @@ button{
 .card{
   margin: 1%;
 }
-  
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: black;
+  text-decoration: none; /* Remove a linha embaixo do link quando o mouse passa por cima */
+}
+
+.card-img-top {
+  height: 150px; /* Defina a altura desejada para as imagens */
+  object-fit: cover; /* Isso garante que a imagem cubra todo o espaço designado, mantendo a proporção */
+}
+
+.card {
+  width: 14rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+  margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+}
+
+.card-body {
+  padding: 7px; /* Reduza o preenchimento interno do corpo do card */
+}
+
+.card-title {
+  font-size: 1.1rem; /* Reduza o tamanho do título do card */
+}
+
+.card-text {
+  font-size: 0.9rem; /* Reduza o tamanho do texto do card */
+}
+
+/*Fim dos Cards*/
+
+/*Início do botão*/
+#confira {
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #05440F;
+ }
+ 
+ #confira:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ #confira:hover {
+  color:#4E9E5A;
+ }
+ 
+ #confira:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #confira:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #confira:active:before {
+  background: #05440F;
+  transition: background 0s;
+ }
+
+ #botao{
+  display: flex;
+  justify-content: center;
+ }
+/*Fim do botão*/
