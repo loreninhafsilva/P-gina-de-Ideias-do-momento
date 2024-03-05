@@ -373,6 +373,7 @@ a:link{
 
 .cards-wrapper{
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -385,14 +386,8 @@ a:link{
   height: 2em;
 }
 
-.carousel-control-next{
-  right: 20%;
-  opacity: 1;
-    filter: invert(1);
-}
-.carousel-control-prev{
-  left: 20%;
-  opacity: 1;
-  filter: invert(1);
+
+#carouselExampleControls{
+  width: 65em;
 }
 
