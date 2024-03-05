@@ -281,6 +281,7 @@ a:link{
 
 .card-title {
   font-size: 1.1rem; /* Reduza o tamanho do título do card */
+  text-align: center;
 }
 
 .card-text {
@@ -351,8 +352,7 @@ a:link{
   display: flex;
   justify-content: left;
   margin-top: 1%;
-  margin-left: 7%;
-  margin-bottom: 3%;
+  margin-left: 15%;
 }
 
 #sacola{
@@ -374,5 +374,25 @@ a:link{
 .cards-wrapper{
   display: flex;
   justify-content: center;
+}
+
+.cards-wrapper > .card{
+  height: 13em;
+  text-align: center;
+}
+
+.cards-wrapper > .card > .card-body{
+  height: 2em;
+}
+
+.carousel-control-next{
+  right: 20%;
+  opacity: 1;
+    filter: invert(1);
+}
+.carousel-control-prev{
+  left: 20%;
+  opacity: 1;
+  filter: invert(1);
 }
 
