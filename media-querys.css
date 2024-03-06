@@ -10,7 +10,6 @@
     ul{
         margin-left: -6%;
     }
-
 }
 
 @media screen and (max-width: 988px){
@@ -63,6 +62,9 @@
       .botao{
         margin-bottom: 4%;
       }
+      .cards-wrapper > .card > .card-body{
+        height: 0.8em;
+      }
 }
 
 @media screen and (max-width: 470px){
@@ -91,6 +93,9 @@
       }
       .botao{
         margin-bottom: 4%;
+      }
+      .cards-wrapper > .card > .card-body{
+        height: 0.8em;
       }
 }
 
@@ -141,6 +146,15 @@
       .botao{
         margin-bottom: 4%;
       }
+      #titulos > img{
+        margin-top: -5px;
+        }
+    #plastico, #papel, #vidro, #madeira, #organico, #metal{
+        font-size: 20px;
+      }
+      .cards-wrapper > .card > .card-body{
+        height: 0.8em;
+      }
 }
 
 @media screen and (max-width: 380px){
@@ -187,6 +201,17 @@
       .botao{
         margin-bottom: 4%;
       }
+
+      #titulos > img{
+        margin-top: -5px;
+        }
+    
+      #plastico, #papel, #vidro, #madeira, #organico, #metal{
+        font-size: 20px;
+      }
+      .cards-wrapper > .card > .card-body{
+        height: 0.8em;
+      }
 }
 
 /*Galaxy Fold*/
@@ -212,8 +237,8 @@
       }
       
       .card {
-        width: 14rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
-        margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+        width: 12rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
+        margin-bottom: 30px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
       }
 
       .card-body {
@@ -241,12 +266,16 @@
         margin-bottom: 2em;
       }
 
-      #plastico{
+      #plastico, #papel, #vidro, #madeira, #organico, #metal{
         font-size: 20px;
       }
 
-      #tituloPlastico{
-        margin-bottom: 6px;
+      #titulos{
+        margin-top: 10px;
+      }
+
+      #titulos > img{
+      margin-top: -5px;
       }
       
 }

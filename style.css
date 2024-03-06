@@ -382,7 +382,7 @@ a:link{
 }
 
 
-#carouselExampleControls, #carouselExampleControlsVidro, #carouselExampleControlsPapel{
+#carouselExampleControls, #carouselExampleControlsVidro, #carouselExampleControlsPapel, #carouselExampleControlsMetal, #carouselExampleControlsOrganico, #carouselExampleControlsMadeira{
   width: 65em;
 }
 /*Fim do Carrossel*/
@@ -421,10 +421,6 @@ a:link{
   color: #423023;
   font-size: 25px;
   text-transform: uppercase;
-}
-
-.card-organico{
-  margin: 1px 1px 1px 1px #A8642B ;
 }
 
 
