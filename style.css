@@ -231,10 +231,10 @@ button{
 }
 
 #folha{
-  margin-top: -3px;
+  margin-top: -9px;
   margin-right: 5px;
-  width: 2.5em;
-  height: 2.5em;
+  width: 2.7em;
+  height: 2.7em;
 }
 
 #escritaPrincipal{
@@ -305,7 +305,7 @@ a:link{
   transition: color .5s;
   z-index: 1;
   font-size: 17px;
-  border-radius: 6px;
+  border-radius: 20px;
   font-weight: 500;
   color: var(--color);
   background-color: #05440F;
@@ -423,6 +423,319 @@ a:link{
   text-transform: uppercase;
 }
 
+
+/*Início do botão vidro*/
+#vejamaisVidro {
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #4E9E5A;
+ }
+ 
+ #vejamaisVidro:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+ }
+ 
+ #vejamaisVidro:hover {
+  color:#4E9E5A;
+ }
+ 
+ #vejamaisVidro:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #vejamaisVidro:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #vejamaisVidro:active:before {
+  background: #4E9E5A;
+  transition: background 0s;
+ }
+/*Fim do botão vidro*/
+
+
+/*Início do botão plástico*/
+#vejamaisPlastico{
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #CF1212;
+ }
+ 
+ #vejamaisPlastico:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+ }
+ 
+ #vejamaisPlastico:hover {
+  color:#CF1212;
+ }
+ 
+ #vejamaisPlastico:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #vejamaisPlastico:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #vejamaisPlastico:active:before {
+  background: #CF1212;
+  transition: background 0s;
+ }
+/*Fim do botão plástico*/
+
+/*Início do botão papel*/
+#vejamaisPapel{
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #55A4DD;
+ }
+ 
+ #vejamaisPapel:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+ }
+ 
+ #vejamaisPapel:hover {
+  color:#55A4DD;
+ }
+ 
+ #vejamaisPapel:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #vejamaisPapel:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #vejamaisPapel:active:before {
+  background: #55A4DD;
+  transition: background 0s;
+ }
+/*Fim do botão papel*/
+
+/*Início do botão metal*/
+#vejamaisMetal{
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #FFC30F;
+ }
+ 
+ #vejamaisMetal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+ }
+ 
+ #vejamaisMetal:hover {
+  color:#FFC30F;
+ }
+ 
+ #vejamaisMetal:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #vejamaisMetal:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #vejamaisMetal:active:before {
+  background: #FFC30F;
+  transition: background 0s;
+ }
+/*Fim do botão metal*/
+
+/*Início do botão organico*/
+#vejamaisOrganico{
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #A8642B;
+ }
+ 
+ #vejamaisOrganico:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+ }
+ 
+ #vejamaisOrganico:hover {
+  color:#A8642B;
+ }
+ 
+ #vejamaisOrganico:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #vejamaisOrganico:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #vejamaisOrganico:active:before {
+  background: #A8642B;
+  transition: background 0s;
+ }
+/*Fim do botão organico*/
+
+/*Início do botão madeira*/
+#vejamaisMadeira{
+  --color: #F4F4F4;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #423023;
+ }
+ 
+ #vejamaisMadeira:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+ }
+ 
+ #vejamaisMadeira:hover {
+  color:#423023;
+ }
+ 
+ #vejamaisMadeira:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #vejamaisMadeira:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #vejamaisMadeira:active:before {
+  background: #423023;
+  transition: background 0s;
+ }
+/*Fim do botão madeira*/
 
 
 
