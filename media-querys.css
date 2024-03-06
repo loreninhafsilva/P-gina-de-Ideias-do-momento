@@ -62,8 +62,8 @@
       .botao{
         margin-bottom: 4%;
       }
-      .cards-wrapper > .card > .card-body{
-        height: 0.8em;
+      .cards-wrapper > .card {
+        height: 9.6em;
       }
 }
 
@@ -152,8 +152,8 @@
     #plastico, #papel, #vidro, #madeira, #organico, #metal{
         font-size: 20px;
       }
-      .cards-wrapper > .card > .card-body{
-        height: 0.8em;
+      .cards-wrapper > .card {
+        height: 11em;
       }
 }
 
@@ -278,4 +278,7 @@
       margin-top: -5px;
       }
       
+      .cards-wrapper > .card {
+        height: 9.6em;
+      }
 }
