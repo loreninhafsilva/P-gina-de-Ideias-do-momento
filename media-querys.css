@@ -155,6 +155,11 @@
       .cards-wrapper > .card {
         height: 11em;
       }
+
+      #titulos > img{
+        width: 2em;
+        height: 2em;
+      } 
 }
 
 @media screen and (max-width: 380px){
@@ -212,6 +217,11 @@
       .cards-wrapper > .card > .card-body{
         height: 0.8em;
       }
+
+      #titulos > img{
+        width: 2em;
+        height: 2em;
+      } 
 }
 
 /*Galaxy Fold*/
@@ -281,4 +291,9 @@
       .cards-wrapper > .card {
         height: 9.6em;
       }
+
+      #titulos > img{
+        width: 2em;
+        height: 2em;
+      } 
 }

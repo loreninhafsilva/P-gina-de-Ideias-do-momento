@@ -241,10 +241,15 @@ button{
   color: #05440F;
   font-size: 35px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
 /*Fim do Título Principal*/
 
 /*Início dos Cards*/
+
+div#card1.card{
+  border: 50px 50px 50px 50px #004852;
+}
 
 .cards{
   display: flex;
@@ -273,6 +278,7 @@ a:link{
 .card {
   width: 14rem; /* Define a largura de cada card para 50% do contêiner (menos uma pequena margem) */
   margin-bottom: 20px; /* Adiciona margem na parte inferior de cada card para espaçamento entre eles */
+  box-shadow: 2px 2px 25px 1px rgba(0, 0, 0, 0.241);
 }
 
 .card-body {
@@ -291,56 +297,6 @@ a:link{
 /*Fim dos Cards*/
 
 /*Início do botão*/
-#confira {
-  --color: #F4F4F4;
-  font-family: inherit;
-  display: inline-block;
-  width: 8em;
-  height: 2.6em;
-  line-height: 2.5em;
-  margin: 20px;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid var(--color);
-  transition: color .5s;
-  z-index: 1;
-  font-size: 17px;
-  border-radius: 20px;
-  font-weight: 500;
-  color: var(--color);
-  background-color: #05440F;
- }
- 
- #confira:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: var(--color);
-  height: 150px;
-  width: 200px;
-  border-radius: 50%;
- }
- 
- #confira:hover {
-  color:#4E9E5A;
- }
- 
- #confira:before {
-  top: 100%;
-  left: 100%;
-  transition: all .7s;
- }
- 
- #confira:hover:before {
-  top: -30px;
-  left: -30px;
- }
- 
- #confira:active:before {
-  background: #05440F;
-  transition: background 0s;
- }
-
  #botao{
   display: flex;
   justify-content: center;
@@ -375,10 +331,12 @@ a:link{
 .cards-wrapper > .card{
   height: 13em;
   text-align: center;
+  box-shadow: none;
 }
 
 .cards-wrapper > .card > .card-body{
   height: 2em;
+  
 }
 
 
@@ -391,36 +349,42 @@ a:link{
   color: #CF1212;
   font-size: 25px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
 
 #vidro{
   color: #4E9E5A;
   font-size: 25px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
 
 #papel{
   color: #55A4DD;
   font-size: 25px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
 
 #metal{
   color: #FFC30F;
   font-size: 25px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.288);
 }
 
 #organico{
   color: #A8642B;
   font-size: 25px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
 
 #madeira{
   color: #423023;
   font-size: 25px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
 
 
